@@ -35,25 +35,36 @@
 	</script>
 </head>
 <body>
-	<div id="page-wrap">
-		<header id="header">
-			<nav id="main-nav">
-			
-			</nav>
-		</header>
-		<section id="main-content">
-			
-		</section>
-		<aside id="sidebar">
-			
-			
-		</aside>
-		<footer id="footer">
-			
-		</footer>
+	<header id="header">
+		<nav id="main-nav">
+		
+		</nav>
+	</header>
+	<article class="section-content" id="home-section" data-section="home" data-stellar-background-ratio="0.5">
+		
+	</article>
+	<div class="section-image" id="image-section-1" data-stellar-background-ratio="0.5">
+	
 	</div>
+	<article class="section-content" id="about-section" data-section="about" data-stellar-background-ratio="0.5">
+	
+	</article>
+	<div class="section-image" id="image-section-2" data-stellar-background-ratio="0.5">
+	
+	</div>	
+	<article class="section-content" id="contact-section" data-section="contact" data-stellar-background-ratio="0.5">
+	
+	</article>
+	<div class="section-image" id="image-section-3" data-stellar-background-ratio="0.5">
+	
+	</div>
+	<footer id="footer">
+		
+	</footer>
+	
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/modernizr.custom.44232.js"></script>
+	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js?v=1.0"></script>
 </body>
 
