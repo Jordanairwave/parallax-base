@@ -37,10 +37,14 @@
 <body>
 	<header id="header">
 		<nav id="main-nav">
-		
+			<ul>
+				<li><a href="#" title="View the home section" data-section="home">Home</a></li>
+				<li><a href="#" title="About us" data-section="about">About</a></li>
+				<li><a href="#" title="Contact us if you have a question" data-section="contact">Contact</a></li>
+			</ul>
 		</nav>
 	</header>
-	<article class="section-content double" id="home-section" data-section="home" data-stellar-background-ratio="0.5">
+	<article class="section-content double clearfix" id="home-section">
 		<div class="col">
 			<h1>Heading 1</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin nunc sit amet augue molestie pharetra. Vivamus sed bibendum libero. Fusce suscipit at metus eget mattis. Nullam pulvinar, lorem sit amet commodo ullamcorper, libero felis semper sem, vitae feugiat massa tortor quis augue. Nullam in erat quis purus ullamcorper sollicitudin. Praesent pretium nunc ut dui dignissim, ac accumsan felis consequat. Etiam tincidunt suscipit tortor, a blandit magna ullamcorper vitae. Aenean venenatis dictum feugiat. Nullam in dignissim neque, id pretium lectus. Nulla laoreet sit amet felis non pretium. Vivamus enim diam, mollis vitae feugiat sit amet, iaculis sit amet odio. Etiam fringilla nibh vitae ornare gravida. Maecenas ornare, dui a mollis varius, elit odio aliquet ipsum, sed porttitor magna ligula sed turpis.</p>
@@ -54,7 +58,7 @@
 	<div class="section-image" id="image-section-1" data-stellar-background-ratio="0.5">
 	
 	</div>
-	<article class="section-content single" id="about-section" data-section="about" data-stellar-background-ratio="0.5">
+	<article class="section-content single" id="about-section">
 		<div class="col">
 			<h1>Heading</h1>
 			<p>Quisque tincidunt tempor felis, sed posuere odio consectetur quis. Aliquam erat volutpat. Phasellus suscipit eu purus vitae pharetra. In pellentesque dapibus viverra. Proin fringilla odio vel ullamcorper mollis. Vestibulum vitae lorem ut ligula aliquam iaculis posuere eget massa. Curabitur sollicitudin dui at ligula dignissim, quis iaculis diam tristique. Ut eget lacus et metus porta varius id eget ipsum. Nunc sit amet purus fermentum, sodales nisl id, bibendum dolor. Proin at consectetur nunc. Cras nisl quam, fringilla a neque nec, condimentum varius ligula. Donec suscipit ut neque quis malesuada. In lacinia varius diam vitae placerat. Nullam feugiat mattis sodales.</p>
@@ -64,7 +68,7 @@
 	<div class="section-image" id="image-section-2" data-stellar-background-ratio="0.5">
 	
 	</div>	
-	<article class="section-content double" id="contact-section" data-section="contact" data-stellar-background-ratio="0.5">
+	<article class="section-content double clearfix" id="contact-section">
 		<div class="col">
 			<h1>Heading 1</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin nunc sit amet augue molestie pharetra. Vivamus sed bibendum libero. Fusce suscipit at metus eget mattis. Nullam pulvinar, lorem sit amet commodo ullamcorper, libero felis semper sem, vitae feugiat massa tortor quis augue. Nullam in erat quis purus ullamcorper sollicitudin. Praesent pretium nunc ut dui dignissim, ac accumsan felis consequat. Etiam tincidunt suscipit tortor, a blandit magna ullamcorper vitae. Aenean venenatis dictum feugiat. Nullam in dignissim neque, id pretium lectus. Nulla laoreet sit amet felis non pretium. Vivamus enim diam, mollis vitae feugiat sit amet, iaculis sit amet odio. Etiam fringilla nibh vitae ornare gravida. Maecenas ornare, dui a mollis varius, elit odio aliquet ipsum, sed porttitor magna ligula sed turpis.</p>
