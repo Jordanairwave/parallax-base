@@ -2,7 +2,10 @@ var site = {
 	init: function() {
 	
     	//initialise Stellar.js
-    	$(window).stellar();
+    	$(window).stellar({
+    		responsive: true,
+    		positionProperty: 'transform'
+    	});
 
     }
 };
