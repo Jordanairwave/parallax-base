@@ -1,13 +1,16 @@
 var site = {
+	windowWidth: $(window).width(),
 	init: function() {
 	
-    	//initialise Stellar.js
-    	$(window).stellar({
-    		responsive: true,
-    		positionProperty: 'transform',
-    		horizontalScrolling: false,
-			verticalScrolling: true,
-    	});
+    	//initialise Stellar.js on if window width above 1024
+    	if(site.windowWidth > 1024) {
+	    	$(window).stellar({
+	    		responsive: true,
+	    		positionProperty: 'transform',
+	    		horizontalScrolling: false,
+				verticalScrolling: true,
+	    	});	
+    	}
     	
 		//Main Navigation scrolling Function
 		$('#main-nav ul li a').on('click', function(event) {
