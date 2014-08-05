@@ -81,15 +81,15 @@ a:focus { text-decoration: none; color: #000; }
 /* Single Col Section */
 .single .col { position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-/* Author Styles
-------------------------------------------------------------------------------------------------------*/
-
 article, aside, details, figure, footer, header, hgroup, nav, section {
 	display: block;
 }
 
 img,
 svg { max-width: 100%; }
+
+/* Author Styles
+------------------------------------------------------------------------------------------------------*/
 
 /* Image Background section */
 #image-section-1 { background-image: url(../images/background-images/background-image-1.jpg) }
