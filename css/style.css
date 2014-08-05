@@ -88,12 +88,16 @@ article, aside, details, figure, footer, header, hgroup, nav, section {
 	display: block;
 }
 
-img { max-width: 100%; }
+img,
+svg { max-width: 100%; }
 
 /* Image Background section */
 #image-section-1 { background-image: url(../images/background-images/background-image-1.jpg) }
 #image-section-2 { background-image: url(../images/background-images/background-image-2.jpg) }
 #image-section-3 { background-image: url(../images/background-images/background-image-3.jpg) }
+
+/* Header Section */
+#header { position: fixed; background-color: #fff; top: 0; left: 0; width: 100%; z-index: 9999; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 /* Media Queries
 -------------------------------------------------------------------------------------------------------*/
