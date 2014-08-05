@@ -7,7 +7,7 @@ var site = {
     		positionProperty: 'transform',
     		horizontalScrolling: false,
 			verticalScrolling: true,
-    	}););
+    	});
     	
 		//Main Navigation scrolling Function
 		$('#main-nav ul li a').on('click', function(event) {
