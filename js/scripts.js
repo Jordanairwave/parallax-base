@@ -4,8 +4,10 @@ var site = {
     	//initialise Stellar.js
     	$(window).stellar({
     		responsive: true,
-    		positionProperty: 'transform'
-    	});
+    		positionProperty: 'transform',
+    		horizontalScrolling: false,
+			verticalScrolling: true,
+    	}););
     	
 		//Main Navigation scrolling Function
 		$('#main-nav ul li a').on('click', function(event) {
