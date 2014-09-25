@@ -43,9 +43,9 @@
 	<header id="header">
 		<nav id="main-nav">
 			<ul>
-				<li><a href="#" title="View the home section" data-section="home-section">Home</a></li>
-				<li><a href="#" title="About us" data-section="about-section">About</a></li>
-				<li><a href="#" title="Contact us if you have a question" data-section="contact-section">Contact</a></li>
+				<li><a href="#home-section" title="View the home section" >Home</a></li>
+				<li><a href="#about-section" title="About us" >About</a></li>
+				<li><a href="#contact-section" title="Contact us if you have a question" >Contact</a></li>
 			</ul>
 		</nav>
 	</header>
