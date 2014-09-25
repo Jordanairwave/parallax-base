@@ -15,7 +15,7 @@ var site = {
 		//Main Navigation scrolling Function
 		$('#main-nav ul li a').on('click', function(event) {
 			event.preventDefault();
-			site.section = $(this).attr('data-section');
+			site.section = $(this).attr('href').replace('#', '');
 			
 			//add current clase to clicked item and remove from all others
 			$(this).parent().addClass('current').siblings().removeClass('current');
