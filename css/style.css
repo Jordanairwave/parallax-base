@@ -3,13 +3,13 @@ CSS Title Here
 Jordan Haines
 web: www.jordanairwave.co.uk
 Twitter: @jordanairwave
-Facebook: www.facebook.com/jordanairwave.co.uk
 
 Colours used
 
 */
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* -----------------------------------------------------------------------------------------
+	CSS Reset http://meyerweb.com/eric/tools/css/reset/ 
 ----------------------------------------------------------------------------------------- */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
@@ -37,8 +37,9 @@ caption { background : transparent; }
 
 }
 
-/* Font sizes use percentages and are based on Yahoo YUI 2 font sizes - http://yui.github.io/yui2/docs/yui_2.9.0_full/fonts/
-- If you want a bigger font use the formula size x 7.7 (50px x 7.7)
+/* -----------------------------------------------------------------------------------------
+	Font sizes use percentages and are based on Yahoo YUI 2 font sizes - http://yui.github.io/yui2/docs/yui_2.9.0_full/fonts/
+	- If you want a bigger font use the formula size x 7.7 (50px x 7.7)
 ----------------------------------------------------------------------------------------- */
 html { -webkit-text-size-adjust: none; -moz-text-size-adjust: none; -ms-text-size-adjust: none; }
 body { font: 13px "Arial", sans-serif; line-height: 13px; }
@@ -99,7 +100,8 @@ article, aside, details, figure, footer, header, hgroup, nav, section {
 img,
 svg { max-width: 100%; }
 
-/* Author Styles
+/*------------------------------------------------------------------------------------------------------
+	Author Styles
 ------------------------------------------------------------------------------------------------------*/
 
 /* Image Background section */
@@ -110,7 +112,8 @@ svg { max-width: 100%; }
 /* Header Section */
 #header { position: fixed; background-color: #fff; top: 0; left: 0; width: 100%; z-index: 9999; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-/* Media Queries
+/*------------------------------------------------------------------------------------------------------- 
+	Media Queries
 -------------------------------------------------------------------------------------------------------*/
 @media all and (max-width: 1024px) {
 
